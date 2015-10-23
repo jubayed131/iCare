@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jasim.mobileappdevelop.icare" >
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.MainActivity"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.AddNewProfile"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.HomeScreen"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.BasicInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.MedicalInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.GrowthStatus"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.Doctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.AddDoctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.DoctorInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.MedicalCenter"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.MedicalCenterInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.AddMedicalCenter"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.Vaccine"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.Dose"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.Appointment"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.AddAppointment"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+        android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.AppointmentDetails"
+        android:label="@string/app_name" >
+
+    </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.Diet"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.UpdateInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.UpdateDoctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.UpdateHealthCare"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.Notes"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.com.example.shanto.icare.NotePage"
+            android:label="@string/app_name" >
+
+        </activity>
+    </application>
+
+</manifest>
